@@ -35,6 +35,7 @@
 
 
 #pragma mark - Constructors
+/*
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self == nil) {
@@ -44,6 +45,18 @@
     [self init_];
     return self;
 }
+*/
+/*
+- (id)initWithCoder:(NSCoder *)coder {
+    self = [super initWithCoder: coder];
+    if (self == nil) {
+        return nil;
+    }
+ 
+    [self init_];
+    return self;
+}
+*/
 /*
 - (id)init {
     self = [super init];
