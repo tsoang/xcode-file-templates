@@ -37,8 +37,8 @@
 #pragma mark - Constructors
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code
+    if (self == nil) {
+        return ni;
     }
     
     [self init_];
